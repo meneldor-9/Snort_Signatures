@@ -1,0 +1,2 @@
+alert tcp any any <> 217.12.204.100 any (sid:1000000;rev:1;msg:"Potential C2 Server communmination for FLEXIROOT malware.  Source: https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html";)
+alert tcp any any <> 193.23.181.151 any (sid:1000001;rev:1;msg:"Potential second stage implant download for FLEXIROOT malware. Source: https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html";)
